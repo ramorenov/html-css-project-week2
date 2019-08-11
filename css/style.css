@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Oxygen|Ubuntu&display=swap');
+
+body {
+  font-family: 'Oxygen', sans-serif;
+  background-color: lightgray;
+  text-align: left;
+}
+
+header {
+    width: 100%;
+    height: 160px;
+    background: #1F2221;
+    color: #989295;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    padding-left: 15%;
+    padding-Top: 0%;
+}
+#header-img {
+  max-width: 8%;
+  position: fixed;
+  top: 3%;
+  left: 3%;
+  z-index: 2;
+}
+.nav-link{
+  font-size: large;
+ 
+}
+#nav-bar a{
+  float: left;
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  padding: 1px 10px;
+  font-color: white;
+}
+#nav-bar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+main{
+  margin-top: 170px;
+  display: flex;
+  flex: 1 1 auto;
+
+}
+articles {
+  display: flex;
+  flex: 2 1 auto;
+  flex-wrap: wrap;
+}
+
+article {  
+   display: flex;
+   background: #CE4040;
+   flex-direction: column;
+   align-items: left;
+   padding: 20px 100px;
+   margin: 15px;
+   border-radius: 10px;
+   }
+
+article:first-child {
+  background: #2FABC6;
+  
+}
